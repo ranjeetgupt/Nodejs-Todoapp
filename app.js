@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["http://localhost:5173",
+    origin: ["https://react-todo-app-opal-eight.vercel.app",
     "https://nodejs-todoapp-lyja.onrender.com"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
